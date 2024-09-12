@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quién es ese Pokémon?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="generador-contenedor">
+        <h1>Adivina el Pokémon</h1>
+        <div id="carta-contenedor">
+            <h2>Da clic en la pokebola para generar una carta</h2>
+            <img id="pokemon-imagen" src="" alt="Pokémon" style="display: none;">
+        </div>
+        <button id="generar-boton"></button>
+        <div id="adivinanza" style="display: none;">
+            <p><strong>Tipo(s):</strong> <span id="pokemon-tipos"></span></p>
+            <p><strong>Altura:</strong> <span id="pokemon-altura"></span> m</p>
+            <p><strong>Movimientos:</strong> <span id="pokemon-movimientos"></span></p>
+            <p><strong>Estadísticas:</strong> <span id="pokemon-estadisticas"></span></p>
+            <p><strong>Habilidad:</strong> <span id="pokemon-habilidad"></span></p>
+            <input type="text" id="input-nombre" placeholder="Escribe el nombre del Pokémon">
+            <button id="adivinar-boton">Adivinar</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -21,3 +21,7 @@
 - **CSS3** 🎨
 - **JavaScript ES6** 📜
 - **PokeAPI** 🧩
+
+## Puedes ver el proyecto implementado en la siguiente URL:
+
+- **https://yocere.github.io/-Quien-es-ese-pokemon-/**
